@@ -1,3 +1,6 @@
+# Ejecute el siguiente comando en PowerShell como Administrador para generar la lista de aplicaciones
+# Get-ProvisionedAppxPackage -Online | Select DisplayName > .\AppxPackages.csv
+
 # Ruta del archivo CSV con la lista de aplicaciones a eliminar
 $csvPath = ".\AppxPackages.csv"
 
