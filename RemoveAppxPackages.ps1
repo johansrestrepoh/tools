@@ -6,9 +6,22 @@ $appsToRemove = Import-Csv -Path $csvPath
 
 # Lista de aplicaciones a excluir
 $excludeApps = @(
+    "Microsoft.DesktopAppInstaller",
+    "Microsoft.HEIFImageExtension",
+    "Microsoft.Microsoft3DViewer",
+    "Microsoft.MicrosoftEdge.Stable",
+    "Microsoft.MicrosoftStickyNotes",
+    "Microsoft.MSPaint",
     "Microsoft.StorePurchaseApp",
+    "Microsoft.VCLibs.140.00",
+    "Microsoft.VP9VideoExtensions",
+    "Microsoft.WebMediaExtensions",
+    "Microsoft.WebpImageExtension",
+    "Microsoft.Windows.Photos",
+    "Microsoft.WindowsAlarms",
     "Microsoft.WindowsCalculator",
-    "Microsoft.Windows.Photos"
+    "Microsoft.WindowsCamera",
+    "Microsoft.WindowsStore"
 )
 
 # Función para remover aplicaciones
